@@ -1,0 +1,114 @@
+/* Universal Styles */
+html {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: black;
+}
+
+header nav {
+    float: right;
+}
+
+header li {
+    list-style-type: none;
+    display: inline;
+    text-decoration: underline;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    float: left;
+}
+
+/* Banner */
+.banner {
+    background-image: url("images/banner.webp");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+    display: flexbox;
+}
+
+.banner-text {
+    background-color: black;
+    position: relative;
+    top: 50%;
+}
+
+/* Tea of the Month */
+.teaOfMonth {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.gallery {
+margin: 10px;
+}
+
+.imageGallery {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imageGallery img {
+    height: 200px;
+    width: 300px;
+}
+
+.imageGallery figcaption {
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Locations */
+.locations {
+    background-image: url("images/img-locations-background.webp");
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cities {
+    display: inline-flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.downtown, .eastBayside, .oakdale {
+    width: 300px;
+    background-color: black;
+    opacity: 0.9;
+    padding: 0.2em;
+    line-height: 2em;
+    margin: 40px;
+}
+
+/* Footer */
+.largeFooter {
+    height: 200px;
+}
+
+footer {
+    text-align: left;
+    margin-left: 20px;
+}
